@@ -1,11 +1,17 @@
 {
   "name": "ownable-poc",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.5.2",
+    "bootstrap": "^4.3.1",
+    "firebase": "^7.2.2",
+    "framer-motion": "^1.6.15",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "react-scripts": "3.2.0",
+    "react-scrollable-anchor": "^0.6.1",
+    "rfs": "^9.0.2"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,0 +1,23 @@
+.example-label {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 52px;
+    color: #3d3d3d;
+}
+
+.rate-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 52px;
+    /* identical to box height, or 144% */
+    color: #38D389;
+}
+
+.lvl-selected {
+    background: #02BDD7;
+}
+

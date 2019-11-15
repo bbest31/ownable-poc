@@ -1,0 +1,23 @@
+.investment-slider {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.return-text {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 52px;
+    /* identical to box height, or 144% */
+    color: #38D389;
+}
+
+.investment-label {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 52px;
+    color: #3d3d3d;
+}

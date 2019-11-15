@@ -1,26 +1,36 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './NavBar/NavBar';
+import LandingScene from './LandingScene/LandingScene';
+import ValueSection from './ValueSection/ValueSection';
+import HowItWorks from './HowItWorksSection/HowItWorksSection';
+import InvestmentExample from './InvestmentExample/InvestmentExample';
+import Footer from './Footer/Footer';
+import { configureAnchors } from 'react-scrollable-anchor';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+
+  constructor(props) {
+    super(props);
+    // configure scrollable anchor speed
+    configureAnchors({ offset: 0, scrollDuration: 900 });
+  }
+
+  render() {
+    return (
+      <div>
+        <NavBar />
+        <LandingScene />
+        <ValueSection index="0" />
+        <ValueSection index="1" />
+        <ValueSection index="2" />
+        <HowItWorks />
+        <InvestmentExample />
+        <Footer />
+      </div>
+    );
+  }
+
 }
 
 export default App;

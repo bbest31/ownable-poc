@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "ownable-poc"
+  },
+  "targets": {
+    "ownable-poc": {
+      "hosting": {
+        "poc": [
+          "getownable.co"
+        ]
+      }
+    }
+  }
+}

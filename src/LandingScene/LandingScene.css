@@ -1,0 +1,27 @@
+.main-header {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    text-align: center;
+    color: #F2F2F2;
+}
+
+.main-bg {
+    background: #0c6655;
+}
+
+.subheader {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 39px;
+    text-align: center;
+    color: #F2F2F2;
+}
+
+.landing-img {
+    text-align: center;
+}
+

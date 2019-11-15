@@ -2,6 +2,18 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 
+### Full Guide
+
+npm start - deploy local instance for development
+
+npm run build - builds the new developed version into the build folder optimized for production.
+
+firebase deploy - deploys the version currently built in the build folder.
+
+firebase deploy --only hosting:poc - deploys the prod version built in the build folder and deploys to the target site (poc)
+
+$FIREBASE_TOKEN: 1//06n5S_Gt2lrgPCgYIARAAGAYSNwF-L9IrDI6lU_Hl2SBM4GKKxVy3XXgHVf3xo_OjgV7ogj4bi17GML3a7KNjSfq3c5oKfgb-meM
+
 In the project directory, you can run:
 
 ### `npm start`

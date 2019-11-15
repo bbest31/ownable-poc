@@ -1,0 +1,61 @@
+.adopter-btn {
+    background-color: transparent;
+    color: #F2F2F2;
+    padding: 18px 32px;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 55px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #F2F2F2;
+}
+
+.adopter-btn:hover {
+    background-color: #F2F2F2;
+    color: #FF6584;
+    padding: 18px 32px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    border-radius: 55px;
+}
+
+.adopter-btn:active {
+    background-color: #0c6655;
+    color: #F2F2F2;
+}
+
+@keyframes success-show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.success-icon {
+    width: 50%;
+    height: 50%;
+    animation-name: success-show;
+    animation-duration: 2s;
+}
+
+.hidden {
+    display: none;
+}
+
+.form-label {
+    font-family: Montserrat;
+    font-style: normal;
+    color: #F2F2F2;
+    font-size: 18px;
+}

@@ -1,0 +1,47 @@
+/* @import '../../../node_modules/rfs/scss.scss'; */
+
+.level-title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #949494;
+}
+
+.level-horizon {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #949494;
+}
+
+.level-amount {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    color: #949494;
+}
+.level-btn {
+
+    width:100%;
+    border: none;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    letter-spacing: 0.05em;
+    color: #949494;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-style: solid;
+    border-top-width: 0.5px;
+    border-top-color: #e7e7e7;
+}
